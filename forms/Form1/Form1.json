@@ -16,7 +16,7 @@
         "forms",
         "Form1",
         "Elements",
-        "btnCustomers.json"
+        "btnUsers.json"
       ]
     },
     {
@@ -34,7 +34,7 @@
         "forms",
         "Form1",
         "Elements",
-        "txtaCustomers.json"
+        "txtaUsers.json"
       ]
     }
   ],

@@ -28,7 +28,7 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "btnCustomers",
+  "id": "btnUsers",
   "left": 35,
   "mAll": "",
   "mBottom": "",
@@ -61,6 +61,6 @@
   "style": "",
   "toggleControl": "",
   "top": 97,
-  "value": "See all Customers",
+  "value": "See all Users",
   "width": 225
 }
