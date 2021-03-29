@@ -4,11 +4,12 @@ let query = ""
 let results = ""
 let pw = "Alakam11!"
 let netID = "mms96354"
+let database = "group-A1"
 
 
 btnUsers.onclick=function(){
   query = "SELECT * FROM group-A1.customer"
-    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=" + netID + "&pass=" + pw + "&database=mms96354&query=" + query)
+    req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php”, “POST”, “host=ormond.creighton.edu&user=” + netID + “&pass=” + pw + “&database=” + database + “&query=” + query)
 
     if (req.status == 200) { //transit trip worked. 
         results = JSON.parse(req.responseText)
